@@ -1,0 +1,7 @@
+Step 1 (Optional): docker build -t gtest .
+Step 2: docker run --mount
+type=bind,source="C:\Users\520ta\Downloads\CSCI430\reponame/",target=/usr/src
+-it gtest
+Step 3: IN THE SHELL: #make
+Step 4: IN THE SHELL: #./reponameTest
+
